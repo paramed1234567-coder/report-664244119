@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTIVITY OS - รายละเอียดการสัมมนา</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Silkscreen (Pixel font), Prompt, Sarabun, Kanit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;0,700;1,700;1,800&family=Sarabun:wght@300;400;500;600;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #e0f8ff; /* Soft Light Ice Blue background */
+        }
+        
+        .font-pixel {
+            font-family: 'Silkscreen', monospace;
+        }
+
+        .font-kanit {
+            font-family: 'Kanit', sans-serif;
+        }
+
+        /* Rainbow Gradient Text for PRODUCTIVITY OS */
+        .productivity-title {
+            font-family: 'Kanit', sans-serif;
+            font-weight: 800;
+            font-style: italic;
+            background: linear-gradient(90deg, #00f2fe 0%, #4facfe 20%, #00c6ff 40%, #a855f7 60%, #ec4899 80%, #ff2a85 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 2px;
+            text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Retro CRT / Pixel Shadow effect for Header Badge */
+        .pixel-badge {
+            background-color: #3b9bdc;
+            box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.3), inset 0 -3px 6px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Lime Green Textured Pixel-Style Button */
+        .btn-lime {
+            background-color: #9dff5b;
+            border: 2px solid #84ef3e;
+            box-shadow: 3px 3px 0px #5ecb12, inset 0px 1px 2px rgba(255, 255, 255, 0.8);
+            color: #4b32b3; /* Deep Indigo / Purple Text */
+            transition: all 0.15s ease-in-out;
+            position: relative;
+        }
+
+        .btn-lime:hover {
+            transform: translate(-1px, -1px);
+            box-shadow: 4px 4px 0px #5ecb12, inset 0px 1px 2px rgba(255, 255, 255, 0.9);
+            filter: brightness(1.05);
+        }
+
+        .btn-lime:active {
+            transform: translate(2px, 2px);
+            box-shadow: 1px 1px 0px #5ecb12;
+        }
+
+        /* Main Card Soft Outer Shadow */
+        .info-card {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+            border: 1px solid rgba(229, 231, 235, 0.8);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-start p-2 sm:p-6 text-gray-800">
+
+    <!-- MAIN CONTAINER (Desktop - 1 Mockup Match) -->
+    <div class="w-full max-w-5xl bg-[#e6fdff] shadow-xl rounded-sm overflow-hidden border border-cyan-100 mb-6">
+        
+        <!-- HEADER (BLUE BANNER WITH CTRL + Z LOGO) -->
+        <header class="bg-[#59b8ff] h-32 sm:h-36 px-4 sm:px-8 flex items-center justify-end relative overflow-hidden shadow-sm">
+            <!-- CTRL + Z Badge -->
+            <div class="pixel-badge w-full max-w-xs sm:max-w-md h-16 sm:h-20 rounded-xl flex items-center justify-center border border-sky-300/40">
+                <span class="font-pixel text-white text-2xl sm:text-4xl md:text-5xl font-bold tracking-widest drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
+                    CTRL +Z
+                </span>
+            </div>
+        </header>
+
+        <!-- SUB HEADER TITLE (PRODUCTIVITY OS) -->
+        <div class="text-center pt-6 pb-2">
+            <h1 class="productivity-title text-2xl sm:text-3xl md:text-4xl uppercase tracking-wider">
+                PRODUCTIVITY OS
+            </h1>
+        </div>
+
+        <!-- MAIN BODY CONTENT (GRID 2 COLUMNS) -->
+        <main class="p-4 sm:p-8 grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+            
+            <!-- LEFT COLUMN: SEMINAR DETAILS CARD (WHITE BOX) -->
+            <section class="md:col-span-8">
+                <div class="info-card bg-white rounded-lg p-5 sm:p-7 text-gray-800 space-y-2 text-xs sm:text-sm leading-relaxed">
+                    <p class="font-semibold text-gray-900 text-sm sm:text-base mb-3">รายละเอียดการสัมมนา</p>
+                    
+                    <p><span class="font-normal text-gray-800">วันที่ : </span><span class="font-normal">วันพุธที่ 23 กันยายน พ.ศ. 2569</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">เวลา: </span><span class="font-normal">08:30 - 12:30 น.</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">สถานที่จัดการ : </span><span class="font-normal">ห้องประชุมนิทัศน์เพียรขุนทด ชั้น 2 อาคาร 26 คณะเทคโนโลยีสารสนเทศมหาวิทยาลัยราชภัฏเพชรบุรี</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">ประธานพิธี: </span><span class="font-normal">อาจารย์ ดร.พีรศุษม์ บุญมาธรรม</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">เวลาลงทะเบียน : </span><span class="font-normal">8:00 - 8:30 น.</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">พิธีเปิด : </span><span class="font-normal">8:30 - 8:50 น.</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">หัวข้อ productivity : </span><span class="font-normal">9:00 - 10:30 น.</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">พักเบรค : </span><span class="font-normal">10:30 - 10:45 น.</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">หัวข้อ project รายบุคคล : </span><span class="font-normal">10:45- 11:50 น.</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">ช่วงเล่นเกมตอบและรับรางวัล : </span><span class="font-normal">11:00- 12:20 น.</span></p>
+                    
+                    <p><span class="font-normal text-gray-800">ช่วงจบการสัมมนาและถ่ายภาพ : </span><span class="font-normal">12:20- 12:30 น.</span></p>
+                    
+                    <p class="pt-1"><span class="font-normal text-gray-800">ผู้จัดการสัมมนา: </span><span class="font-normal">นักศึกษาสาขาวิชาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 4</span></p>
+                </div>
+            </section>
+
+            <!-- RIGHT COLUMN: LIME GREEN ACTION BUTTONS -->
+            <section class="md:col-span-4 flex flex-col gap-4 pt-2 sm:pt-4">
+                
+                <!-- BUTTON 1: Organizer -->
+                <button onclick="openModal('organizerModal')" class="btn-lime font-kanit font-bold text-lg sm:text-xl py-3 px-6 rounded-xl w-full flex items-center justify-center gap-2">
+                    Organizer
+                </button>
+
+                <!-- BUTTON 2: บรรยากาศในงาน -->
+                <button onclick="openModal('galleryModal')" class="btn-lime font-kanit font-bold text-lg sm:text-xl py-3 px-6 rounded-xl w-full flex items-center justify-center gap-2">
+                    บรรยากาศในงาน
+                </button>
+
+                <!-- BUTTON 3: รายชื่อโปรเจคและชื่อผู้จัดทำ -->
+                <button onclick="openModal('projectsModal')" class="btn-lime font-kanit font-bold text-base sm:text-lg py-3 px-4 rounded-xl w-full flex items-center justify-center text-center leading-snug">
+                    รายชื่อโปรเจคและ<br class="hidden sm:inline">ชื่อผู้จัดทำ
+                </button>
+
+                <!-- BUTTON 4: วิดีโอ (NEW) -->
+                <button onclick="openModal('videoModal')" class="btn-lime font-kanit font-bold text-lg sm:text-xl py-3 px-6 rounded-xl w-full flex items-center justify-center gap-2">
+                    วิดีโอ
+                </button>
+
+                <!-- BUTTON 5: เนื้อหาสัมมนา (NEW) -->
+                <button onclick="openModal('contentModal')" class="btn-lime font-kanit font-bold text-lg sm:text-xl py-3 px-6 rounded-xl w-full flex items-center justify-center gap-2">
+                    เนื้อหาสัมมนา
+                </button>
+
+            </section>
+
+        </main>
+        
+        <!-- FOOTER INFO -->
+        <footer class="bg-cyan-100/60 py-3 px-4 text-center text-xs text-cyan-800 border-t border-cyan-200/50">
+            สัมมนาวิชาการสาขาวิชาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 4 | มหาวิทยาลัยราชภัฏเพชรบุรี
+        </footer>
+
+    </div>
+
+    <!-- MODAL 1: ORGANIZER -->
+    <div id="organizerModal" class="fixed inset-0 bg-black/50 backdrop-blur-xs hidden z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-teal-200 transform transition-all">
+            <div class="flex justify-between items-center border-b pb-3 mb-4">
+                <h3 class="font-kanit font-bold text-xl text-indigo-900">Organizer / ผู้จัดการสัมมนา</h3>
+                <button onclick="closeModal('organizerModal')" class="text-gray-400 hover:text-gray-600 text-xl font-bold">&times;</button>
+            </div>
+            <div class="space-y-3 text-sm text-gray-700">
+                <p>664244104 อมินตา รุ่งเรือง  หน้าที่: พิธีกรดำเนินการสัมมนา</p>
+                <p>664244112 เจตนิพัทธ์ รักทอง  หน้าที่: ช่างภาพ และอำนวยความสะดวก</p>
+                <p>664244114 ณัฐวุฒิ อิ่มจิตร  หน้าที่: รับลงทะเบียน ดูแลความเรียบร้อยภายในห้องประชุม</p>
+                <p>664244115 ธนพจน์ โพธิ์เกตุ  หน้าที่: ควบคุมระบบภาพและเสียง ดูแลความเรียบร้อยภายในห้องประชุม</p>
+                <p>664244119 ปรเมษฐ์ ใจห้าว  หน้าที่: รับลงทะเบียน และอำนวยความสะดวก</p>
+                <p>ผู้จัดการสัมมนาจากทีมอื่น</p>
+                <p>664244103 นางสาวศุภวดี จรรยากูล หน้าที่: พิธีกรดำเนินการสัมมนา</p>
+                <p>664244121 นายพงศกร บุษษะ หน้าที่: ช่างภาพช่วงท้าย และช่วยอำนวยความสะดวก</p>
+                <p>664244106 นางสาว เอราวัณ เเป้นทอง หน้าที่: ช่วยอำนวยความสะดวก</p>
+            </div>
+            <div class="mt-6 text-right">
+                <button onclick="closeModal('organizerModal')" class="bg-indigo-600 hover:bg-indigo-700 text-white font-kanit px-4 py-2 rounded-lg text-sm">ปิดหน้าต่าง</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 2: GALLERY (บรรยากาศในงาน) -->
+    <div id="galleryModal" class="fixed inset-0 bg-black/50 backdrop-blur-xs hidden z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full p-6 shadow-2xl border border-teal-200">
+            <div class="flex justify-between items-center border-b pb-3 mb-4">
+                <h3 class="font-kanit font-bold text-xl text-indigo-900">บรรยากาศในงานสัมมนา</h3>
+                <button onclick="closeModal('galleryModal')" class="text-gray-400 hover:text-gray-600 text-xl font-bold">&times;</button>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 my-4">
+                 <div class="bg-gray-100 rounded-lg aspect-video flex flex-col items-center justify-center border text-gray-400 p-2 text-center">
+                    <img src="20260923_085959.jpg" width="300" height="200">
+                </div>
+                <div class="bg-gray-100 rounded-lg aspect-video flex flex-col items-center justify-center border text-gray-400 p-2 text-center">
+                    <img src="20260923_090037.jpg" width="300" height="200">
+                </div>
+                <div class="bg-gray-100 rounded-lg aspect-video flex flex-col items-center justify-center border text-gray-400 p-2 text-center">
+                    <img src="IMG_1912.JPG" width="300" height="200">
+                </div>
+                <div class="bg-gray-100 rounded-lg aspect-video flex flex-col items-center justify-center border text-gray-400 p-2 text-center">
+                    <img src="20260923_090059.jpg" width="300" height="200">
+                </div>
+            </div>
+
+            <div class="mt-6 text-right">
+                <button onclick="closeModal('galleryModal')" class="bg-indigo-600 hover:bg-indigo-700 text-white font-kanit px-4 py-2 rounded-lg text-sm">ปิดหน้าต่าง</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 3: PROJECTS & CREATORS -->
+    <div id="projectsModal" class="fixed inset-0 bg-black/50 backdrop-blur-xs hidden z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-teal-200">
+            <div class="flex justify-between items-center border-b pb-3 mb-4">
+                <h3 class="font-kanit font-bold text-xl text-indigo-900">รายชื่อโปรเจคและชื่อผู้จัดทำ</h3>
+                <button onclick="closeModal('projectsModal')" class="text-gray-400 hover:text-gray-600 text-xl font-bold">&times;</button>
+            </div>
+            
+            <div class="space-y-3 text-sm text-gray-700">
+                <div class="p-3 bg-gray-50 rounded-lg border">
+                    <p class="font-bold text-indigo-900">วิทยากรคนที่ 1: นางสาว วรรณนิสา พันแตง</p>
+                    <p class="text-xs text-gray-600 mt-1">เรื่อง "ระบบบริหารจัดการร้านคาเฟ่บอร์ดเกม"</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded-lg border">
+                    <p class="font-bold text-indigo-900">วิทยากรคนที่ 2: นาย วรรรณชนะ แสงจันทร์</p>
+                    <p class="text-xs text-gray-600 mt-1">เรื่อง "ระบบบริหารจัดการลำดับการเข้ารับบริการในโรงพยาบาล"</p>
+                </div>
+                  <div class="p-3 bg-gray-50 rounded-lg border">
+                    <p class="font-bold text-indigo-900">วิทยากรคนที่ 3: นาย วีรภัทร ชื่นภิรมย์ เรื่อง</p>
+                    <p class="text-xs text-gray-600 mt-1">เรื่อง "ระบบวิเคราะห์หุ้นและพอร์ตจำลองอัจฉริยะ"</p>
+                </div>
+                  <div class="p-3 bg-gray-50 rounded-lg border">
+                    <p class="font-bold text-indigo-900">วิทยากรคนที่ 4: นาย วัชรินทร์ หนูน้อย</p>
+                    <p class="text-xs text-gray-600 mt-1">เรื่อง "ระบบ Engine สร้างเกม Visual novel "</p>
+                </div>
+                  <div class="p-3 bg-gray-50 rounded-lg border">
+                    <p class="font-bold text-indigo-900">วิทยากรคนที่ 5: นาย ศุภโชค อุปมา</p>
+                    <p class="text-xs text-gray-600 mt-1">เรื่อง "ระบบสารสนเทศเพื่อการบริการและสั่งทำป้ายออนไลน์ ร้าน โอเคกราฟฟิก"</p>
+                </div>
+            </div>
+
+            <div class="mt-6 text-right">
+                <button onclick="closeModal('projectsModal')" class="bg-indigo-600 hover:bg-indigo-700 text-white font-kanit px-4 py-2 rounded-lg text-sm">ปิดหน้าต่าง</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 4: VIDEO (NEW) -->
+    <div id="videoModal" class="fixed inset-0 bg-black/50 backdrop-blur-xs hidden z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full p-6 shadow-2xl border border-teal-200">
+            <div class="flex justify-between items-center border-b pb-3 mb-4">
+                <h3 class="font-kanit font-bold text-xl text-indigo-900">วิดีโอการสัมมนา</h3>
+                <button onclick="closeModal('videoModal')" class="text-gray-400 hover:text-gray-600 text-xl font-bold">&times;</button>
+            </div>
+            
+            <div class="bg-black aspect-video rounded-xl overflow-hidden flex items-center justify-center text-white relative">
+                <div class="text-center p-4">
+                    <i class="fa-solid fa-circle-play text-5xl mb-2 text-lime-400"></i>
+                    <p class="text-sm font-kanit">วิดีโอบันทึกการสัมมนาวิชาการ Productivity OS</p>
+                    <iframe src="0515.mp4" width="100%" height="400" ...></iframe>
+                </div>
+            </div>
+
+            <div class="mt-6 text-right">
+                <button onclick="closeModal('videoModal')" class="bg-indigo-600 hover:bg-indigo-700 text-white font-kanit px-4 py-2 rounded-lg text-sm">ปิดหน้าต่าง</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 5: SEMINAR CONTENT (NEW) -->
+    <div id="contentModal" class="fixed inset-0 bg-black/50 backdrop-blur-xs hidden z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full p-6 shadow-2xl border border-teal-200 max-h-[85vh] overflow-y-auto">
+            <div class="flex justify-between items-center border-b pb-3 mb-4 sticky top-0 bg-white z-10">
+                <h3 class="font-kanit font-bold text-xl text-indigo-900">เนื้อหาสัมมนา (Productivity OS)</h3>
+                <button onclick="closeModal('contentModal')" class="text-gray-400 hover:text-gray-600 text-xl font-bold">&times;</button>
+            </div>
+            
+            <div class="space-y-4 text-sm text-gray-700 leading-relaxed">
+                <div class="p-4 bg-teal-50 rounded-xl border border-teal-100">
+                    <h4 class="font-bold text-teal-900 text-base mb-1">Productivity OS</h4>
+                    <p class="text-xs sm:text-sm">การจัดระเบียบความคิดและงานอย่างเป็นระบบด้วยเทคโนโลยี ช่วยเพิ่มประสิทธิภาพในการทำงานและการเรียนรู้อย่างก้าวกระโดด</p>
+                </div>
+
+                <div class="p-4 bg-indigo-50 rounded-xl border border-indigo-100">
+                    <h4 class="font-bold text-indigo-900 text-base mb-1">1.Notion</h4>
+                    <p class="text-xs sm:text-sm">เครื่องมือการวางแผนชีวิตหลักการทำงานคล้ายโพสอิทแต่สามารถใส่ฟังก์ชั่นเพิ่มเติมได้ ใช้แนวคิดรูปแบบ building block</p>
+                </div>
+                <div class="p-4 bg-indigo-50 rounded-xl border border-indigo-100">
+                    <h4 class="font-bold text-indigo-900 text-base mb-1">2.Workflow manager</h4>
+                    <p class="text-xs sm:text-sm">เครื่องมือจัดระเบียบและบริหารจัดการงานออนไลน์ที่เน้นการมองเห็นเป็นภาพ ใช้แนวคิดรูปแบบ kanban</p>
+                </div>
+                <div class="p-4 bg-indigo-50 rounded-xl border border-indigo-100">
+                    <h4 class="font-bold text-indigo-900 text-base mb-1">3.Researcher</h4>
+                    <p class="text-xs sm:text-sm">แอปพลิเคชันจัดระเบียบข้อมูล จดบันทึก และบริหารจัดการงานดิจิทัล ที่ถูกออกแบบมาภายใต้แนวคิด ใช้แนวคิดรูปแบบ Remember everything</p>
+                </div>
+                <div class="p-4 bg-indigo-50 rounded-xl border border-indigo-100">
+                    <h4 class="font-bold text-indigo-900 text-base mb-1">4.Quest planner</h4>
+                    <p class="text-xs sm:text-sm">แอปพลิเคชันสำหรับจัดการตารางงานและความเป็นระเบียบในชีวิตแบบครบวงจร ใช้แนวคิดรูปแบบ Task management</p>
+                </div>
+                <div class="p-4 bg-indigo-50 rounded-xl border border-indigo-100">
+                    <h4 class="font-bold text-indigo-900 text-base mb-1">5.Task manager</h4>
+                    <p class="text-xs sm:text-sm">แอปพลิเคชันสำหรับการบริหารจัดการงานและจัดทำรายการสิ่งที่ต้องทำ Cloud-based
+                    Sync ใช้แนวคิดรูปแบบ Task management</p>
+                </div>
+                
+            </div>
+
+            <div class="mt-6 text-right">
+                <button onclick="closeModal('contentModal')" class="bg-indigo-600 hover:bg-indigo-700 text-white font-kanit px-4 py-2 rounded-lg text-sm">ปิดหน้าต่าง</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- INTERACTIVE JAVASCRIPT -->
+    <script>
+        function openModal(id) {
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.add('hidden');
+        }
+
+        // Close modal on background click
+        window.onclick = function(event) {
+            ['organizerModal', 'galleryModal', 'projectsModal', 'videoModal', 'contentModal'].forEach(id => {
+                const modal = document.getElementById(id);
+                if (event.target === modal) {
+                    modal.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
